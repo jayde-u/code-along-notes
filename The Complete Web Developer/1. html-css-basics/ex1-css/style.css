@@ -1,0 +1,68 @@
+/*Secletor {
+	Property: value;
+}*/
+
+* {
+	text-align: right;
+
+}
+
+
+body {
+
+	background-image: url(background.jpg);
+	background-size: cover;
+}
+
+p {
+	color: #C91246;
+	text-align: center;
+	border: 5px solid rgba(230, 69, 115, 0.5);
+	cursor: pointer;
+}
+
+p {
+	line-height: 30px;
+	font-weight: bold;
+	font-size: 100%;
+	background-color: rgba(255, 255, 255, 0.7);
+	font-family: "Emblema One", system-ui;
+
+	/*fdf*/
+}
+
+img {
+
+	float: right;
+}
+
+footer {
+	clear: both;
+	text-align: center;
+}
+
+li {
+	list-style: none;
+	display: inline-block;
+}
+
+.webtext:last-child {
+	border: 5px dashed green;
+}
+
+.active {
+	color:red;
+}
+
+#div1 {
+	background: rgba(255, 0, 0, 0.3);
+}
+
+#div2 {
+	background: rgba(0, 255, 0, 0.3);
+}
+
+
+
+
+
