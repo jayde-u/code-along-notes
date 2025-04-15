@@ -52,4 +52,26 @@ introduce = Object.entries(obj).reduce(
 Object.entries(obj).map(value => value.join(" ")).join(' ')
 
 
+// 
+let salaries = {
+  "John": 100,
+  "Pete": 300,
+  "Mary": 250
+};
+
+const sumSalaaries = (salaries) => {
+  return Object.values(salaries)
+    .reduce((sum, val) => sum + val, 0)
+}
+
+
+// 
+let user = {
+  name: 'John',
+  age: 30
+};
+
+const count = (user) => {
+  return Object.keys(user).length;
+}
 
